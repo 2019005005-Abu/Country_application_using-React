@@ -1,0 +1,23 @@
+.nav_style{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.nav_style a{
+    text-decoration: none;
+    background-color: brown;
+    color: beige;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: .2s;
+    font-weight: bold;
+}
+.nav_style a:hover{
+    color: blueviolet;
+    background-color: black;
+}

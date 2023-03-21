@@ -1,0 +1,23 @@
+.countryy{
+    border: 1px solid red;
+    text-align: center;
+    padding: 5px;
+    background-color: bisque;
+    border: none;
+    font-size: 15px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+transition: .5s;
+}
+
+.countryy:hover{
+    background-color: brown;
+    color: aliceblue;
+    border-radius:5px ;
+}
+
+.flagstyle{
+    width: 200px;
+    height: 200px;
+}

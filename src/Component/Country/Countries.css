@@ -1,0 +1,23 @@
+.country{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.country_heading{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    color: blueviolet;
+}
+@media only screen and (max-width: 600px) {
+    .country{
+        grid-template-columns: repeat(1,1fr);
+        padding: 10px;
+    }
+   
+} 
+
+
